@@ -1,0 +1,11 @@
+{
+	"name": "continuer",
+	"description": "continue sequence of functions, lightweight and powerful function queue.",
+	"author": "aimingoo",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/aimingoo/continuer.git"
+	},
+	"main": "continuer.js",
+	"version": "1.0.0"
+}
