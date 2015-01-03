@@ -1,4 +1,4 @@
-continuer
+continuer [![npm version](https://badge.fury.io/js/continuer.svg)](https://www.npmjs.com/package/continuer)
 =========
 
 continue sequence of functions.
