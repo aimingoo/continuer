@@ -59,7 +59,6 @@ var c = require('continuer')()
  *     - instane of Array/Arguments: func's arguments
  *     - false value(undefined/null/0/...): arguments is lazyed, or none
  *  - continuator: a object with .do() method, Optional.
- *     - 
 **/
 c.next(func, args, continuator)
 
@@ -67,6 +66,7 @@ c.next(func, args, continuator)
  *  - func: a function, will callback by host
  *  - args: see also c.next(), Optional
  *  - continuator: see also c.next(), Optional
+ *    - true value: force skip callback-warp when last_arg isnt callback function of <args>
 **/
 c.isCallback(func, args, continuator)
 
